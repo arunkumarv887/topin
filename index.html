@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Top In Technologies — Your Trusted IT Partner</title>
+<title>Top In Technologies | IT Infrastructure, Cloud & Cyber Security Solutions India</title>
+<meta name="description" content="Top In Technologies delivers IT Infrastructure, Cyber Security, Cloud Migration, Networking, Storage, Managed IT Services, and Digital Transformation solutions across India.">
+<meta name="keywords" content="IT Infrastructure India, Cloud Solutions, Cyber Security, Network Security, Firewall Solutions, Managed IT Services, Cloud Migration, Data Storage, Disaster Recovery, Top In Technologies">
+<meta name="author" content="Top In Technologies">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="language" content="English">
+<meta name="theme-color" content="#0D1B4B">
+<link rel="canonical" href="https://www.topin.co.in/">
+
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Top In Technologies">
+<meta property="og:description" content="Enterprise IT Infrastructure, Cloud, Networking & Cyber Security Solutions across India.">
+<meta property="og:url" content="https://www.topin.co.in/">
+<meta property="og:image" content="https://www.topin.co.in/images/og-image.jpg">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Top In Technologies",
+  "url":"https://www.topin.co.in",
+  "logo":"https://www.topin.co.in/logo.png",
+  "email":"info@topin.co.in",
+  "telephone":"+91-9986908086",
+  "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"No 18, 1st Floor, Mylappanahalli",
+      "addressLocality":"Bengaluru",
+      "addressRegion":"Karnataka",
+      "postalCode":"560089",
+      "addressCountry":"IN"
+  }
+}
+</script>
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy:       #0D1B4B;
+    --navy-mid:   #1A2E6E;
+    --navy-light: #2A4A99;
+    --cyan:       #00C2CB;
+    --orange:     #E87722;
+    --white:      #FFFFFF;
+    --off-white:  #F4F7FC;
+    --light-gray: #E2E8F4;
+    --text-dark:  #0D1B4B;
+    --text-mid:   #3D4A6B;
+    --text-light: #6B7A9D;
+  }
+
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; background: var(--white); color: var(--text-dark); overflow-x: hidden; }
+
+  /* ─── NAV ─── */
+  nav {
+    position: fixed; top: 0; left: 0; width: 100%; z-index: 100;
+    padding: 0 5%;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 68px;
+    background: rgba(13,27,75,0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0,194,203,0.15);
+  }
+  .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+  .logo-badge {
+    width: 38px; height: 38px; border-radius: 8px; background: var(--orange);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Syne', sans-serif; font-weight: 800; font-size: 13px; color: #fff;
+  }
+  .logo-text { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 15px; color: var(--white); line-height: 1.2; }
+  .logo-text span { display: block; font-size: 10px; font-weight: 400; color: var(--cyan); letter-spacing: 2px; text-transform: uppercase; }
+  .nav-links { display: flex; gap: 32px; list-style: none; }
+  .nav-links a { font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.75); text-decoration: none; letter-spacing: 0.5px; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--cyan); }
+  .nav-cta { padding: 9px 20px; border-radius: 6px; background: var(--orange); color: #fff; font-size: 13px; font-weight: 600; text-decoration: none; transition: opacity 0.2s; }
+  .nav-cta:hover { opacity: 0.85; }
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+  .hamburger span { width: 24px; height: 2px; background: #fff; border-radius: 2px; transition: all 0.3s; display: block; }
+
+  /* ─── HERO ─── */
+  #hero {
+    position: relative; overflow: hidden;
+    min-height: 100vh; background: var(--navy);
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 120px 5% 140px;
+  }
+  #heroCanvas { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0.35; pointer-events: none; }
+  .hero-content { position: relative; z-index: 2; max-width: 680px; }
+  .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase;
+    color: var(--cyan); margin-bottom: 20px;
+  }
+  .hero-eyebrow::before { content: ''; width: 28px; height: 2px; background: var(--cyan); flex-shrink: 0; }
+  h1 { font-family: 'Syne', sans-serif; font-weight: 800; font-size: clamp(38px, 6vw, 68px); line-height: 1.07; color: var(--white); margin-bottom: 24px; }
+  h1 em { font-style: normal; color: var(--cyan); }
+  .hero-sub { font-size: 16px; color: rgba(255,255,255,0.65); line-height: 1.7; max-width: 520px; margin-bottom: 36px; }
+  .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn-primary { padding: 14px 28px; border-radius: 7px; background: var(--orange); color: #fff; font-size: 14px; font-weight: 600; text-decoration: none; transition: transform 0.2s, opacity 0.2s; display: inline-block; }
+  .btn-primary:hover { opacity: 0.88; transform: translateY(-1px); }
+  .btn-outline { padding: 14px 28px; border-radius: 7px; border: 1.5px solid rgba(0,194,203,0.5); color: var(--cyan); font-size: 14px; font-weight: 600; text-decoration: none; transition: background 0.2s, border-color 0.2s; display: inline-block; }
+  .btn-outline:hover { background: rgba(0,194,203,0.08); border-color: var(--cyan); }
+
+  /* Stats row — inside hero flow, not absolute */
+  .hero-stats {
+    position: relative; z-index: 2;
+    display: flex; gap: 2px; margin-top: 56px;
+    width: 100%;
+  }
+  .stat-pill {
+    flex: 1; padding: 16px 20px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 4px;
+  }
+  .stat-pill:first-child { border-radius: 10px 4px 4px 10px; }
+  .stat-pill:last-child  { border-radius: 4px 10px 10px 4px; }
+  .stat-num { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 26px; color: var(--white); line-height: 1; margin-bottom: 4px; }
+  .stat-num span { color: var(--cyan); }
+  .stat-label { font-size: 11px; color: rgba(255,255,255,0.45); letter-spacing: 0.5px; }
+
+  /* ─── SECTIONS ─── */
+  section { padding: 90px 5%; }
+  .section-eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--cyan); margin-bottom: 10px; }
+
+  /* h2 defaults for light backgrounds */
+  h2 { font-family: 'Syne', sans-serif; font-weight: 800; font-size: clamp(28px, 4vw, 44px); line-height: 1.12; color: var(--navy); margin-bottom: 16px; }
+
+  /* h2 override for dark-background sections */
+  #products h2, #managed h2, #contact h2 { color: var(--white); }
+
+  .section-lead { font-size: 15px; color: var(--text-mid); line-height: 1.7; max-width: 560px; margin-bottom: 48px; }
+  #products .section-lead, #managed .section-lead { color: rgba(255,255,255,0.55); }
+
+  /* ─── ABOUT ─── */
+  #about { background: var(--off-white); }
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+  .about-left h2 { margin-bottom: 20px; }
+  .about-desc { font-size: 15px; color: var(--text-mid); line-height: 1.75; margin-bottom: 28px; }
+  .about-pills { display: flex; flex-wrap: wrap; gap: 10px; }
+  .pill { padding: 7px 14px; border-radius: 20px; background: var(--white); border: 1px solid var(--light-gray); font-size: 12px; font-weight: 600; color: var(--text-mid); }
+  .vm-cards { display: flex; flex-direction: column; gap: 16px; }
+  .vm-card { padding: 24px 26px; border-radius: 12px; background: var(--white); border: 1px solid var(--light-gray); transition: border-color 0.25s, box-shadow 0.25s; }
+  .vm-card:hover { border-color: var(--cyan); box-shadow: 0 8px 32px rgba(0,194,203,0.1); }
+  .vm-icon { width: 36px; height: 36px; border-radius: 8px; margin-bottom: 12px; display: flex; align-items: center; justify-content: center; font-size: 18px; }
+  .vm-card h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 14px; color: var(--navy); margin-bottom: 8px; letter-spacing: 1px; text-transform: uppercase; }
+  .vm-card p { font-size: 13px; color: var(--text-mid); line-height: 1.65; }
+
+  /* ─── PRODUCTS ─── */
+  #products { background: var(--navy); }
+  .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .product-card { padding: 28px; border-radius: 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); transition: background 0.25s, border-color 0.25s, transform 0.25s; }
+  .product-card:hover { background: rgba(255,255,255,0.09); border-color: rgba(0,194,203,0.4); transform: translateY(-3px); }
+  .product-icon { width: 46px; height: 46px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 22px; margin-bottom: 16px; }
+  .product-card h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 16px; color: var(--white); margin-bottom: 10px; }
+  .product-card p { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.6; margin-bottom: 16px; }
+  .product-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag { padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: 500; background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); }
+
+  /* ─── CLOUD ─── */
+  #cloud { background: var(--off-white); }
+  /* h2 on light bg stays navy — inherited from default */
+  .cloud-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
+  .cloud-visual { position: relative; border-radius: 16px; overflow: hidden; background: var(--navy); padding: 40px 36px; min-height: 380px; display: flex; flex-direction: column; justify-content: flex-end; }
+  .cloud-canvas-wrap { position: absolute; inset: 0; }
+  #cloudCanvas { width: 100%; height: 100%; opacity: 0.5; display: block; }
+  .cloud-visual-content { position: relative; z-index: 2; }
+  .cloud-visual h3 { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 28px; color: var(--white); margin-bottom: 10px; }
+  .cloud-visual p { font-size: 14px; color: rgba(255,255,255,0.55); line-height: 1.6; }
+  .cloud-services { display: flex; flex-direction: column; gap: 14px; }
+  .cloud-service { display: flex; align-items: flex-start; gap: 16px; padding: 20px; border-radius: 10px; background: var(--white); border: 1px solid var(--light-gray); transition: border-color 0.2s, box-shadow 0.2s; }
+  .cloud-service:hover { border-color: var(--cyan); box-shadow: 0 4px 20px rgba(0,194,203,0.08); }
+  .cs-icon { width: 40px; height: 40px; border-radius: 8px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 18px; }
+  .cloud-service h4 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 14px; color: var(--navy); margin-bottom: 4px; }
+  .cloud-service p { font-size: 13px; color: var(--text-mid); line-height: 1.55; }
+
+  /* ─── MANAGED SERVICES ─── */
+  #managed { background: var(--navy); }
+  .managed-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+  .ms-card { padding: 26px 24px; border-radius: 12px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); transition: background 0.2s, border-color 0.2s; }
+  .ms-card:hover { background: rgba(255,255,255,0.08); border-color: rgba(232,119,34,0.45); }
+  .ms-icon { width: 40px; height: 40px; border-radius: 8px; margin-bottom: 14px; display: flex; align-items: center; justify-content: center; font-size: 18px; background: rgba(232,119,34,0.15); }
+  .ms-card h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 15px; color: var(--white); margin-bottom: 8px; }
+  .ms-card p { font-size: 13px; color: rgba(255,255,255,0.48); line-height: 1.6; }
+
+  /* ─── WHY US ─── */
+  #why { background: var(--white); }
+  .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .why-card { padding: 30px 26px; border-radius: 14px; border: 1px solid var(--light-gray); transition: border-color 0.25s, box-shadow 0.25s; }
+  .why-card:hover { border-color: var(--cyan); box-shadow: 0 8px 32px rgba(0,194,203,0.1); }
+  .why-num { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 40px; color: var(--light-gray); line-height: 1; margin-bottom: 12px; }
+  .why-card h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 16px; color: var(--navy); margin-bottom: 10px; }
+  .why-card p { font-size: 13px; color: var(--text-mid); line-height: 1.65; }
+
+  /* ─── CONTACT ─── */
+  #contact { background: var(--navy); padding: 90px 5%; text-align: center; }
+  #contact .section-eyebrow { display: block; }
+  .contact-sub { font-size: 15px; color: rgba(255,255,255,0.5); max-width: 480px; margin: 0 auto 40px; line-height: 1.7; }
+  .contact-cards { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-bottom: 40px; }
+  .contact-card { padding: 22px 28px; border-radius: 12px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); text-align: left; min-width: 200px; }
+  .cc-label { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--cyan); font-weight: 600; margin-bottom: 6px; }
+  .cc-value { font-size: 14px; font-weight: 500; color: var(--white); line-height: 1.55; }
+  .cc-value a { color: var(--white); text-decoration: none; }
+  .cc-value a:hover { color: var(--cyan); }
+  .contact-cta { display: inline-block; padding: 16px 36px; border-radius: 8px; background: var(--orange); color: #fff; font-size: 15px; font-weight: 700; text-decoration: none; font-family: 'Syne', sans-serif; transition: opacity 0.2s, transform 0.2s; }
+  .contact-cta:hover { opacity: 0.88; transform: translateY(-2px); }
+
+  /* ─── FOOTER ─── */
+  footer { background: #07112e; padding: 20px 5%; text-align: center; font-size: 12px; color: rgba(255,255,255,0.3); }
+  footer span { color: var(--cyan); }
+
+  /* ─── SCROLL REVEAL — fixed: start visible, animate on scroll ─── */
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: opacity 0.55s ease, transform 0.55s ease;
+  }
+  .reveal.hidden {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 960px) {
+    .about-grid { grid-template-columns: 1fr; }
+    .cloud-grid { grid-template-columns: 1fr; }
+    .why-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 640px) {
+    nav .nav-links { display: none; }
+    nav .nav-links.open {
+      display: flex; flex-direction: column; gap: 0;
+      position: fixed; top: 68px; left: 0; right: 0;
+      background: var(--navy); padding: 16px 24px;
+      border-bottom: 1px solid rgba(255,255,255,0.08); z-index: 99;
+    }
+    nav .nav-links.open li a { display: block; padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .hamburger { display: flex; }
+    .nav-cta { display: none; }
+    .why-grid { grid-template-columns: 1fr; }
+    section { padding: 60px 5%; }
+    .hero-stats { flex-wrap: wrap; }
+    .stat-pill { flex: 1 1 calc(50% - 2px); }
+    .contact-cards { flex-direction: column; align-items: stretch; }
+    .contact-card { min-width: unset; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal, .reveal.hidden { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a class="nav-logo" href="#">
+    <div class="logo-badge">TiT</div>
+    <div class="logo-text">Top In Technologies<span>Your Trusted IT Partner</span></div>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#cloud">Cloud</a></li>
+    <li><a href="#managed">Services</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a class="nav-cta" href="#contact">Get in Touch</a>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas id="heroCanvas"></canvas>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Simplicity &amp; Efficiency</div>
+    <h1>Powering Your<br/><em>Digital</em><br/>Transformation</h1>
+    <p class="hero-sub">End-to-end IT infrastructure, network security, cloud migration, and managed services — all under one trusted partner across India.</p>
+    <div class="hero-actions">
+      <a class="btn-primary" href="#contact">Start a Conversation</a>
+      <a class="btn-outline" href="#products">Explore Solutions</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat-pill">
+      <div class="stat-num">360<span>°</span></div>
+      <div class="stat-label">Digital Coverage</div>
+    </div>
+    <div class="stat-pill">
+      <div class="stat-num">Pan<span>-India</span></div>
+      <div class="stat-label">Project Delivery</div>
+    </div>
+    <div class="stat-pill">
+      <div class="stat-num">6<span>+</span></div>
+      <div class="stat-label">Solution Verticals</div>
+    </div>
+    <div class="stat-pill">
+      <div class="stat-num">OEM<span>+</span></div>
+      <div class="stat-label">Global Partnerships</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-left reveal">
+      <div class="section-eyebrow">Who We Are</div>
+      <h2>Built on Trust,<br/>Driven by Expertise</h2>
+      <p class="about-desc">Top In Technologies is a leading IT Infrastructure, Network &amp; Information Security, and Data Management company in India. Our certified professionals bring deep expertise to large-scale turnkey IT projects across the country — delivering quality service, realistic pricing, and results that matter.</p>
+      <div class="about-pills">
+        <span class="pill">Global OEM Partners</span>
+        <span class="pill">Certified Expert Team</span>
+        <span class="pill">360° Digital Transformation</span>
+        <span class="pill">Turnkey IT Projects</span>
+        <span class="pill">Operational Excellence</span>
+      </div>
+    </div>
+    <div class="vm-cards reveal">
+      <div class="vm-card">
+        <div class="vm-icon" style="background:#EAF6F7;">🎯</div>
+        <h3>Vision</h3>
+        <p>To be the authority and market leader offering reliable, cost-effective, and secure IT solutions — where every client benefits from a truly personalized partnership.</p>
+      </div>
+      <div class="vm-card">
+        <div class="vm-icon" style="background:#FEF2E7;">🚀</div>
+        <h3>Mission</h3>
+        <p>To constantly elevate network security, storage virtualization, and system integration — earning recognition as the most trusted value-added integrator by customers and vendors.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="section-eyebrow">Our Products</div>
+  <h2>Complete IT Solutions Portfolio</h2>
+  <p class="section-lead">From perimeter security to cloud migration, we cover every layer of your technology stack with certified expertise.</p>
+  <div class="products-grid">
+    <div class="product-card reveal">
+      <div class="product-icon" style="background:rgba(0,194,203,0.12);">🛡️</div>
+      <h3>Security Solutions</h3>
+      <p>Comprehensive perimeter and endpoint protection for your enterprise.</p>
+      <div class="product-tags">
+        <span class="tag">UTM</span><span class="tag">NGFW</span><span class="tag">Firewall</span>
+        <span class="tag">DDoS &amp; SSO</span><span class="tag">Email Security</span>
+        <span class="tag">DLP &amp; Encryption</span><span class="tag">IRM</span>
+        <span class="tag">Mobile Security</span>
+      </div>
+    </div>
+    <div class="product-card reveal">
+      <div class="product-icon" style="background:rgba(0,194,203,0.12);">🌐</div>
+      <h3>Networking Solutions</h3>
+      <p>Next-generation connectivity and intelligent network management.</p>
+      <div class="product-tags">
+        <span class="tag">Switching / Routing</span><span class="tag">Wireless</span>
+        <span class="tag">SDN</span><span class="tag">LLB &amp; SLB</span>
+        <span class="tag">WAN Optimisation</span><span class="tag">NAC</span>
+        <span class="tag">Network Monitoring</span>
+      </div>
+    </div>
+    <div class="product-card reveal">
+      <div class="product-icon" style="background:rgba(0,194,203,0.12);">🗄️</div>
+      <h3>Storage &amp; Backup</h3>
+      <p>Enterprise-grade data protection, recovery, and storage optimization.</p>
+      <div class="product-tags">
+        <span class="tag">Unified Storage</span><span class="tag">Backup &amp; Archival</span>
+        <span class="tag">Disaster Recovery</span><span class="tag">Deduplication</span>
+        <span class="tag">SDS</span><span class="tag">Virtualisation</span>
+      </div>
+    </div>
+    <div class="product-card reveal">
+      <div class="product-icon" style="background:rgba(0,194,203,0.12);">🖥️</div>
+      <h3>IT Infrastructure</h3>
+      <p>End-to-end compute, server, and enterprise application deployment.</p>
+      <div class="product-tags">
+        <span class="tag">Servers</span><span class="tag">End Computing</span>
+        <span class="tag">Operating Systems</span><span class="tag">Enterprise Apps</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLOUD -->
+<section id="cloud">
+  <div class="cloud-grid">
+    <div class="cloud-visual reveal">
+      <div class="cloud-canvas-wrap"><canvas id="cloudCanvas"></canvas></div>
+      <div class="cloud-visual-content">
+        <h3>Cloud-First.<br/>Always Ready.</h3>
+        <p>From assessment to deployment, we migrate and manage your cloud journey with zero disruption.</p>
+      </div>
+    </div>
+    <div>
+      <div class="section-eyebrow">Cloud &amp; Software</div>
+      <h2>Your Complete<br/>Cloud Partner</h2>
+      <p class="section-lead">Whether you're starting your cloud journey or optimizing existing workloads, we deliver the right mix of IaaS, PaaS, and SaaS.</p>
+      <div class="cloud-services">
+        <div class="cloud-service reveal">
+          <div class="cs-icon" style="background:#EAF6F7;">☁️</div>
+          <div>
+            <h4>Cloud Infrastructure</h4>
+            <p>PaaS, SaaS, and IaaS delivery with full assessment and deployment support.</p>
+          </div>
+        </div>
+        <div class="cloud-service reveal">
+          <div class="cs-icon" style="background:#FEF2E7;">💾</div>
+          <div>
+            <h4>Cloud Migration</h4>
+            <p>Seamless migration of workloads with built-in disaster recovery and data integrity.</p>
+          </div>
+        </div>
+        <div class="cloud-service reveal">
+          <div class="cs-icon" style="background:#EAF6F7;">📦</div>
+          <div>
+            <h4>Cloud Software Licensing</h4>
+            <p>Microsoft, Adobe, Accops and more — managed licensing with competitive pricing.</p>
+          </div>
+        </div>
+        <div class="cloud-service reveal">
+          <div class="cs-icon" style="background:#FEF2E7;">🔒</div>
+          <div>
+            <h4>Secure Cloud Storage</h4>
+            <p>Software-defined storage and cloud-based backup with encryption and compliance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MANAGED SERVICES -->
+<section id="managed">
+  <div class="section-eyebrow">Managed Services</div>
+  <h2>Always On. Always Yours.</h2>
+  <p class="section-lead">We take end-to-end ownership of your IT so you can focus on your business.</p>
+  <div class="managed-grid">
+    <div class="ms-card reveal">
+      <div class="ms-icon">🤝</div>
+      <h3>Onsite &amp; Offshore Support</h3>
+      <p>Flexible delivery models — on your premises or remote — tailored to your operational needs.</p>
+    </div>
+    <div class="ms-card reveal">
+      <div class="ms-icon">📋</div>
+      <h3>SLA-Based Services</h3>
+      <p>Committed response times and guaranteed uptime backed by formal service-level agreements.</p>
+    </div>
+    <div class="ms-card reveal">
+      <div class="ms-icon">🏢</div>
+      <h3>Total IT Ownership</h3>
+      <p>Single-window accountability for your entire IT estate — no multi-vendor chaos.</p>
+    </div>
+    <div class="ms-card reveal">
+      <div class="ms-icon">💻</div>
+      <h3>Desktop Support</h3>
+      <p>Comprehensive helpdesk, on-ground support, and proactive maintenance for all endpoints.</p>
+    </div>
+    <div class="ms-card reveal">
+      <div class="ms-icon">🖧</div>
+      <h3>Server Support</h3>
+      <p>24×7 server monitoring, patching, and maintenance to keep your infrastructure at peak health.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why">
+  <div class="section-eyebrow">The Difference</div>
+  <h2>Why Top In Technologies?</h2>
+  <p class="section-lead">We're not just another IT vendor. We're the partner that stays.</p>
+  <div class="why-grid">
+    <div class="why-card reveal">
+      <div class="why-num">01</div>
+      <h3>Global OEM Partnerships</h3>
+      <p>Direct access to world-class technology brands with competitive pricing and genuine support.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-num">02</div>
+      <h3>Certified Expert Team</h3>
+      <p>Every project handled by trained, experienced professionals — not outsourced or under-qualified.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-num">03</div>
+      <h3>Pan-India Delivery</h3>
+      <p>Proven capability for large-scale turnkey IT infrastructure projects across all of India.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-num">04</div>
+      <h3>Security-First Design</h3>
+      <p>Every solution we build has network and data security architected in from day one.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-num">05</div>
+      <h3>360° Digital Coverage</h3>
+      <p>From consultation through deployment to ongoing support — one partner for everything.</p>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-num">06</div>
+      <h3>Realistic Pricing</h3>
+      <p>Best-value solutions without compromising quality, reliability, or long-term trust.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-eyebrow">Let's Build Together</div>
+  <h2>Ready to Transform<br/>Your IT?</h2>
+  <p class="contact-sub">Reach out today and let our team design the right solution for your enterprise.</p>
+  <div class="contact-cards">
+    <div class="contact-card">
+      <div class="cc-label">Address</div>
+      <div class="cc-value">No 18, 1st Floor, Mylappanahalli,<br/>Shivakote Post, Hesaraghatta Hobli,<br/>Bengaluru, Karnataka 560089</div>
+    </div>
+    <div class="contact-card">
+      <div class="cc-label">Email</div>
+      <div class="cc-value"><a href="mailto:info@topin.co.in">info@topin.co.in</a></div>
+    </div>
+    <div class="contact-card">
+      <div class="cc-label">Mobile</div>
+      <div class="cc-value"><a href="tel:+919986908086">+91 9986908086</a></div>
+    </div>
+  </div>
+  <a class="contact-cta" href="mailto:info@topin.co.in">Send Us a Message →</a>
+</section>
+
+<footer>
+  <p>© 2024 <span>Top In Technologies</span>. All rights reserved. Bengaluru, India.</p>
+</footer>
+
+<script>
+// ─── HAMBURGER ───
+const hamburger = document.getElementById('hamburger');
+const navLinks  = document.getElementById('navLinks');
+hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+// ─── HERO CANVAS ───
+(function(){
+  const canvas = document.getElementById('heroCanvas');
+  const ctx = canvas.getContext('2d');
+  let W, H, nodes = [];
+  const N = 55, DIST = 155;
+  function resize(){ W = canvas.width = canvas.offsetWidth; H = canvas.height = canvas.offsetHeight; }
+  function init(){ nodes = Array.from({length:N}, ()=>({ x:Math.random()*W, y:Math.random()*H, vx:(Math.random()-.5)*.4, vy:(Math.random()-.5)*.4, r:Math.random()*2+1.5 })); }
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    for(let i=0;i<nodes.length;i++) for(let j=i+1;j<nodes.length;j++){
+      const dx=nodes[i].x-nodes[j].x, dy=nodes[i].y-nodes[j].y, d=Math.sqrt(dx*dx+dy*dy);
+      if(d<DIST){ ctx.strokeStyle=`rgba(0,194,203,${(1-d/DIST)*.5})`; ctx.lineWidth=.8; ctx.beginPath(); ctx.moveTo(nodes[i].x,nodes[i].y); ctx.lineTo(nodes[j].x,nodes[j].y); ctx.stroke(); }
+    }
+    nodes.forEach(n=>{ ctx.beginPath(); ctx.arc(n.x,n.y,n.r,0,Math.PI*2); ctx.fillStyle='rgba(0,194,203,0.75)'; ctx.fill(); n.x+=n.vx; n.y+=n.vy; if(n.x<0||n.x>W)n.vx*=-1; if(n.y<0||n.y>H)n.vy*=-1; });
+    requestAnimationFrame(draw);
+  }
+  window.addEventListener('resize',()=>{resize();init();});
+  resize(); init(); draw();
+})();
+
+// ─── CLOUD CANVAS ───
+(function(){
+  const canvas = document.getElementById('cloudCanvas');
+  const ctx = canvas.getContext('2d');
+  let W, H, nodes = [];
+  const N = 22, DIST = 110;
+  function resize(){ W = canvas.width = canvas.offsetWidth; H = canvas.height = canvas.offsetHeight; }
+  function init(){ nodes = Array.from({length:N}, ()=>({ x:Math.random()*W, y:Math.random()*H, vx:(Math.random()-.5)*.3, vy:(Math.random()-.5)*.3, r:Math.random()*1.5+1 })); }
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    for(let i=0;i<nodes.length;i++) for(let j=i+1;j<nodes.length;j++){
+      const dx=nodes[i].x-nodes[j].x, dy=nodes[i].y-nodes[j].y, d=Math.sqrt(dx*dx+dy*dy);
+      if(d<DIST){ ctx.strokeStyle=`rgba(0,194,203,${(1-d/DIST)*.4})`; ctx.lineWidth=.7; ctx.beginPath(); ctx.moveTo(nodes[i].x,nodes[i].y); ctx.lineTo(nodes[j].x,nodes[j].y); ctx.stroke(); }
+    }
+    nodes.forEach(n=>{ ctx.beginPath(); ctx.arc(n.x,n.y,n.r,0,Math.PI*2); ctx.fillStyle='rgba(0,194,203,0.65)'; ctx.fill(); n.x+=n.vx; n.y+=n.vy; if(n.x<0||n.x>W)n.vx*=-1; if(n.y<0||n.y>H)n.vy*=-1; });
+    requestAnimationFrame(draw);
+  }
+  window.addEventListener('resize',()=>{resize();init();});
+  resize(); init(); draw();
+})();
+
+// ─── SCROLL REVEAL (inverted: hide first, reveal on scroll) ───
+// Mark all .reveal elements hidden AFTER page load so they're visible without JS
+window.addEventListener('DOMContentLoaded', () => {
+  const items = document.querySelectorAll('.reveal');
+  // Only hide elements that are NOT already in view
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.remove('hidden');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  items.forEach(el => {
+    const rect = el.getBoundingClientRect();
+    // Only animate elements below the fold
+    if (rect.top > window.innerHeight) {
+      el.classList.add('hidden');
+    }
+    observer.observe(el);
+  });
+});
+
+// ─── ACTIVE NAV LINK ───
+const sections = document.querySelectorAll('section[id]');
+const navAs = document.querySelectorAll('.nav-links a');
+window.addEventListener('scroll', () => {
+  let cur = '';
+  sections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) cur = s.id; });
+  navAs.forEach(a => { a.style.color = a.getAttribute('href') === '#'+cur ? 'var(--cyan)' : ''; });
+}, { passive: true });
+</script>
+</body>
+</html>
